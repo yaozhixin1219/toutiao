@@ -1,0 +1,260 @@
+// 侧边栏当前列表页-推荐/首页
+.recommend {
+    a {
+        color: #fff;
+    }
+    background-color: #ED4040;
+    border-radius: 4px;
+}
+
+// 内容
+.content {
+    width: 1060px;
+    float: left;
+    .left {
+        float: left;
+        width: 660px;
+        margin: 0 30px 0 30px;
+        .inner {
+            border: 1px solid #E8E8E8;
+            height: 185px;
+            width: 658px;
+            .tab-list {
+                height: 43px;
+                border-bottom: 1px solid #E8E8E8;
+            }
+            li {
+                float: left;
+                width: 45px;
+                height: 43px;
+                line-height: 43px;
+                margin-left: 20px;
+                font-size: 15px;
+                color: #222;
+                // 悬停小手
+                cursor: pointer;
+            }
+        }
+        .news {
+            .news-item-words {
+                border-bottom: 1px solid #E8E8E8;
+                width: 660px;
+                padding: 10px 0;
+                .news-header {
+                    .news-title {
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #222;
+                    }
+                    img {
+                        width: 100px;
+                        height: 31px;
+                        float: right;
+                    }
+                }
+                .news-footer {
+                    padding-top: 10px;
+                    font-size: 14px;
+                    color: #999;
+                    .news-type {
+                        font-size: 12px;
+                        padding: 0 2px 0 1px;
+                        border: 1px solid #87a5b5;
+                        color: #87a5b5;
+                    }
+                    .news-logo {
+                        img {
+                            width: 18px;
+                            height: 18px;
+                            margin-bottom: -5px;
+                            margin-left: 4px;
+                        }
+                    }
+                    .news-source {
+                        font-size: 14px;
+                        color: #777;
+                    }
+                    .news-comments {
+                        font-size: 14px;
+                        color: #777;
+                    }
+                    .dislike-click {
+                        font-size: 16px;
+                        font-weight: 700;
+                        float: right;
+                        margin-right: 5px;
+                        color: #999;
+                    }
+                }
+            }
+            .news-item-pic {
+                border-bottom: 1px solid #E8E8E8;
+                width: 660px;
+                height: 103px;
+                padding: 10px 0;
+                img {
+                    width: 156px;
+                    height: 101.8px;
+                    margin-right: 20px;
+                }
+                .news-brief {
+                    float: right;
+                    padding-top: 10px;
+                    width: 480px;
+                    .news-header {
+                        .news-title {
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: #222;
+                        }
+                    }
+                    .news-footer {
+                        padding-top: 10px;
+                        font-size: 14px;
+                        color: #999;
+                        .news-type {
+                            font-size: 12px;
+                            padding: 0 2px 0 1px;
+                            border: 1px solid #87a5b5;
+                            color: #87a5b5;
+                        }
+                        .news-logo {
+                            img {
+                                width: 18px;
+                                height: 18px;
+                                margin: 0 0 -5px 4px;
+                            }
+                        }
+                        .news-source {
+                            font-size: 14px;
+                            color: #777;
+                        }
+                        .news-comments {
+                            font-size: 14px;
+                            color: #777;
+                        }
+                        .dislike-click {
+                            font-size: 16px;
+                            font-weight: 700;
+                            float: right;
+                            margin-right: 5px;
+                            color: #999;
+                        }
+                    }
+                }  
+            }  
+        }
+    }
+    .right  {
+        float: left;
+        width: 340px;
+        .search {
+            width: 340px;
+            height: 44px;
+            input {
+                float: left;
+                width: 238px;
+                height: 44px;
+                font-size: 15px;
+                border-radius: 4px 0 0 4px;
+                border: 1px solid #E8E8E8;
+                background-color: #F4F5F6;
+                padding: 0 10px;
+            }
+            button {
+                float: left;
+                width: 80px;
+                height: 46px;
+                border-radius: 0 4px 4px 0;
+                font-size: 15px;
+                color: #fff;
+                background-color: #208EDA;
+                cursor: pointer;
+            }
+        }
+        .login {
+            width: 300px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #F4F5F6;
+            .login-content {
+                border: 1px solid #E8E8E8;
+                width: 238px;
+                background-color: #fff;
+                padding: 30px;
+                .login-msg {
+                    font-size: 12px;
+                    line-height: 17px;
+                    color: #777;
+                }
+                .login-button {
+                    width: 240px;
+                    height: 40px;
+                    margin: 16px 0 14px;
+                    background-color:#EF5353;
+                    font-size: 14px;
+                    color: #fff;
+                    border-radius: 4px;
+                }
+            }
+        }
+        .ad-taobao {
+            width: 300px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #F4F5F6;
+            .taobao {
+                border: 2px solid #FF4400;
+                width: 300px;
+                height: 194px;
+                background-color: #fff;
+            }
+        }
+        .hot-news {
+            width: 300px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #F4F5F6;
+            border-top: 2px solid #ED4040;
+            .hot-news-head {
+                font-size: 20px;
+                font-weight: 700;
+                color: #000000;
+                margin-bottom: 10px;
+            }
+            .hot-news-inner {
+                .hot-news-item {
+                    width: 300px;
+                    height: 70px;
+                    margin-top: 10px;
+                    border-bottom: 1px solid #E8E8E8;
+                    .hot-news-img {
+                        width: 60px;
+                        height: 60px;
+                        float: left;
+                    }
+                    .hot-news-title {
+                        float: left;
+                        font-size: 14px;
+                        width: 220px;
+                        padding-left: 20px;
+                        padding-top: 10px;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+        .ad-albb {
+            width: 300px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #F4F5F6;
+            .albb {
+                border: 2px solid #EC6C00;
+                width: 300px;
+                height: 194px;
+                background-color: #fff;
+            }
+        }
+    }
+}
